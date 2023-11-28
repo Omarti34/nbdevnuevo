@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "articulo.html",
+    "href": "articulo.html",
+    "title": "Articulo",
+    "section": "",
+    "text": "source\n\nArticulo\n\n Articulo (nombre:str, cantidad:int, agregado:bool=False)\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nnombre\nstr\n\neste es el nombre del articulo\n\n\ncantidad\nint\n\nesta es la cantidad del articulo\n\n\nagregado\nbool\nFalse\nesto indica si ya fue agregado\n\n\nReturns\nNone"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdevnuevo",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdevnuevo",
+    "section": "Install",
+    "text": "Install\npip install nbdevnuevo"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdevnuevo",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n.2+.1\n\n0.30000000000000004"
+  },
+  {
+    "objectID": "tarea.html",
+    "href": "tarea.html",
+    "title": "Tarea",
+    "section": "",
+    "text": "source\n\nTarea\n\n Tarea (nombre:str, descripcion:str, fecha_entrega:str, entregado:bool)\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\n\n\nType\nDetails\n\n\n\n\nnombre\nstr\naqui va el nombre\n\n\ndescripcion\nstr\naqui va la descripcion\n\n\nfecha_entrega\nstr\naqui la fecha\n\n\nentregado\nbool\naqui si se entrego o no la cosa\n\n\nReturns\nNone"
+  },
+  {
+    "objectID": "listadesuper.html",
+    "href": "listadesuper.html",
+    "title": "Lista de Supermercado",
+    "section": "",
+    "text": "source\n\nArticulo\n\n Articulo (nombre:str, cantidad:int, agregado:bool=False)\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nnombre\nstr\n\neste es el nombre del articulo\n\n\ncantidad\nint\n\nesta es la cantidad del articulo\n\n\nagregado\nbool\nFalse\nesto indica si ya fue agregado\n\n\nReturns\nNone\n\n\n\n\n\n\narticulo1 = Articulo(\"Manzanas\", 5)\narticulo2 = Articulo(\"Pan\", 1, True)\narticulo3 = Articulo(\"Leche\", 2)\nlista = ListaDeSupermercado()\nlista.agregar_articulo(articulo1)\nlista.agregar_articulo(articulo2)\nlista.agregar_articulo(articulo3)\nprint(\"Todos los artículos:\")\nlista.imprimir_articulos()\nprint(\"\\nArtículos no agregados:\")\nlista.imprimir_articulos_no_agregados()\n\nTodos los artículos:\nArticulo : Manzanas (Cantidad: 5) - No Agregado\nArticulo : Pan (Cantidad: 1) - Agregado\nArticulo : Leche (Cantidad: 2) - No Agregado\n\nArtículos no agregados:\nArticulo : Manzanas (Cantidad: 5) - No Agregado\nArticulo : Leche (Cantidad: 2) - No Agregado\n\n\n\nsource\n\n\nListaDeSupermercado\n\n ListaDeSupermercado ()\n\nInitialize self. See help(type(self)) for accurate signature."
+  }
+]
